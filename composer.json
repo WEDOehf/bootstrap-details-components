@@ -1,0 +1,41 @@
+{
+  "name": "wedo/bootstrap-details-components",
+  "description": "Easy way to display details in bootstrap table from object",
+  "license": ["MIT"],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "nette/di": "^3.0",
+    "nette/application": "^3.0",
+    "nette/utils": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "phpstan/phpstan": "^0.12",
+    "nette/bootstrap": "^3.0",
+    "dg/bypass-finals": "^v1.3",
+    "phpstan/phpstan-deprecation-rules": "^0.12",
+    "phpstan/phpstan-dibi": "^0.12",
+    "phpstan/phpstan-nette": "^0.12",
+    "phpstan/phpstan-strict-rules": "^0.12",
+    "ninjify/qa": "^0.12",
+    "wavevision/nette-tests": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wedo\\Details\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wedo\\Tests\\TestApp\\": "tests/app/src",
+      "Wedo\\Tests\\TestAppTests\\": "tests/app/tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}

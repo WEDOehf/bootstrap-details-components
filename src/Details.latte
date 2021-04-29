@@ -1,0 +1,11 @@
+<div class="row row-without-margin" n:snippet="details">
+    {var $col_length = floor(12 / count($group_columns))}
+    {if $col_length == 12 && $col_length = 6}{/if}
+    {foreach $group_columns as $column}
+        <div class="col-{$group_columns_breakpoint}-{$col_length}">
+            {foreach $column as $group}
+                {$group->render()}
+            {/foreach}
+        </div>
+    {/foreach}
+</div>

@@ -1,0 +1,13 @@
+application:
+	mapping:
+		*:  Wedo\Tests\TestApp\*Module\Presenters\*Presenter
+
+
+session:
+	expiration: 14 days
+	autoStart: true
+
+
+services:
+	router: Wedo\Tests\TestApp\Router\RouterFactory::createRouter
+
