@@ -12,3 +12,7 @@ Easy to use bootstrap details component
 
 
     composer require wedo/bootstrap-details-components
+
+## Usage
+
+<a href="https://github.com/WEDOehf/bootstrap-details-components/blob/master/tests/app/src/Presenters/ExamplePresenter.php">See Example presenter in our test</a>
