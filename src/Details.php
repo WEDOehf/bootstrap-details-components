@@ -11,7 +11,7 @@ use Wedo\Details\Controls\Group;
 class Details extends Control
 {
 
-	public static string $defaultTemplateFile = __DIR__ . '/Default.latte';
+	public static string $defaultTemplateFile = __DIR__ . '/Details.latte';
 
 	protected ITranslator $translator;
 
