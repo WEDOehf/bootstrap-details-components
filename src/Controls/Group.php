@@ -17,6 +17,8 @@ use Wedo\Details\Details;
 class Group extends Control
 {
 
+	public static string $defaultTemplateFile = __DIR__ . '/Group.latte';
+
 	protected ITranslator $translator;
 
 	public ?object $dataSource;
@@ -172,7 +174,7 @@ class Group extends Control
 			return $this->templateFile;
 		}
 
-		return __DIR__ . '/Group.latte';
+		return self::$defaultTemplateFile;
 	}
 
 
